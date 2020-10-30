@@ -1,0 +1,377 @@
+@media screen and (max-width: 1229px) {
+    #header-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #main-info-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #main-image {
+        width: 300px;
+    }
+
+    #main-image img {
+        max-width: 100%;
+    }
+
+    #description-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #description-advantages {
+        justify-content: space-around;
+    }
+
+    #description-info-image-container {
+        justify-content: center;
+    }
+
+    #description-image {
+        width: 400px;
+    }
+
+    #description-image img {
+        max-width: 100%;
+    }
+
+    #macaroon-choose-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #macaroon-menu {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .macaroon-menu-card {
+        margin: 100px 12px 0 12px;
+    }
+
+    .macaroon-order-button {
+        max-width: 100%;
+    }
+
+    #footer-container {
+        justify-content: space-around;
+    }
+
+    #order-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #header-container .phone-number {
+        display: none;
+    }
+
+    #header-container {
+        justify-content: left;
+    }
+
+    #menu {
+        margin-left: 103px;
+    }
+
+    #main-info-container {
+        padding-top: 97px;
+        padding-bottom: 420px;
+        position: relative;
+        align-items: flex-end;
+    }
+
+    #main-image {
+        position: absolute;
+        top: 430px;
+        right: 40px;
+        width: 450px;
+    }
+
+    #main-image img {
+        max-width: 100%;
+    }
+
+    #description-info-image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #description-info {
+        max-width: 670px;
+    }
+
+    #description-title {
+        text-align: center;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    #description-text {
+        text-align: center;
+        margin: 60px 0 0 0;
+        max-width: 100%;
+    }
+
+    #description-image {
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    #description-image img {
+        width: 100%;
+    }
+
+    #description-advantages {
+        flex-wrap: wrap;
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .description-advantage-card {
+        margin: 40px 27px;
+        text-align: center;
+    }
+
+    .advantage-number {
+        margin: 0 auto;
+    }
+
+    #order-container {
+        flex-direction: row-reverse;
+        align-items: normal;
+        padding-bottom: 0;
+    }
+
+    #order-image {
+        width: 352px;
+        margin-top: 300px;
+    }
+
+    #order-image img {
+        max-width: 100%;
+    }
+
+    #strawberry-left{
+        top: 382px;
+        left: 410px;
+    }
+
+    #strawberry-right {
+        bottom: 561px;
+        right: -297px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #header-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #order-image {
+        display: none;
+        max-height: 1px;
+        margin: 0;
+    }
+
+    #menu {
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-item {
+        margin: 0;
+    }
+
+    #main-info-container {
+        padding: 80px 20px 43px 20px;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #main-info-container h1 {
+        font-size: 32px;
+    }
+
+    #main-info-text {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    #main-image {
+        width: 250px;
+        position: static;
+        margin-top: 38px;
+    }
+
+    #main-action {
+        margin-top: 40px;
+    }
+
+    #description-container {
+        padding: 100px 15px;
+    }
+
+    #description-title {
+        font-size: 30px;
+        max-width: 317px;
+    }
+
+    #description-text {
+        margin-top: 40px;
+    }
+
+    #description-image {
+        margin-top: 60px;
+    }
+
+    #description-advantages {
+        margin-top: 4px;
+        justify-content: space-between;
+    }
+
+    .description-advantage-card {
+        max-width: 175px;
+        margin: 36px 0 0 0;
+    }
+
+    #macaroon-choose-container {
+        padding: 100px 0;
+    }
+
+    #macaroon-choose-title {
+        font-size: 30px;
+    }
+
+    #order-container {
+        padding-bottom: 77px;
+    }
+
+    #order-form{
+        margin: 0 auto;
+    }
+
+    #order-title {
+        font-size: 30px;
+    }
+
+    #strawberry-left {
+        top: 220px;
+        left: 273px;
+    }
+
+    #strawberry-right {
+        display: none;
+    }
+
+    #footer-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    #footer-container .logo{
+        order: 1;
+    }
+
+    #footer-container .phone-number{
+         order: 2;
+         margin-top: 40px;
+     }
+
+   #footer-container #rights{
+        display: none;
+    }
+
+   #rights-for-small{
+       display: block;
+       order: 4;
+       margin-top: 40px;
+   }
+
+    #instagram-block{
+        order: 3;
+        margin-top: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 424px) {
+
+
+    #header-container{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #menu{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 70px;
+        background: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
+    }
+
+    #main-info-container{
+        position: static;
+    }
+
+    #burger{
+        display: block;
+        margin-right: 20px;
+    }
+
+    #burger svg{
+        width: 36px;
+        height: 36px;
+        fill: #fad7a7;
+    }
+
+    #menu.open{
+        display: flex;
+    }
+
+    .description-advantage-card .advantage-text{
+        font-size: 13px;
+    }
+
+    .advantage-title{
+        font-size: 18px;
+}
+    .description-advantage-card{
+        max-width: 170px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+    #strawberry-left{
+        top: 236px;
+        left: 209px;
+    }
+
+    #description-advantages{
+        flex-direction: column;
+        align-items: center;
+    }
+}

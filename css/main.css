@@ -1,0 +1,432 @@
+@font-face {
+    src: url("../fonts/Gilroy-Bold.ttf");
+    font-family: Gilroy-Bold;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Extrabold.ttf");
+    font-family: Gilroy-Extrabold;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Medium.ttf");
+    font-family: Gilroy-Medium;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Regular.ttf");
+    font-family: Gilroy-Regular;
+}
+
+@font-face {
+    src: url("../fonts/tavolga-free.ttf");
+    font-family: Tavolga;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: rgb(235, 168, 177);
+}
+
+#header-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0 25px 0;
+}
+
+.logo a {
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-item {
+    font-size: 14px;
+    font-family: "Gilroy-Medium", sans-serif;
+    color: rgb(119, 11, 29);
+    margin-right: 40px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid rgb(130, 19, 40);
+}
+
+.phone-number {
+    font-size: 16px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#main {
+    background-color: rgb(235, 168, 177);
+}
+
+#main-info-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 127px;
+    padding-bottom: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 580px;
+}
+
+#main-info h1 {
+    margin: 0;
+    font-size: 55px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+    font-weight: normal;
+}
+
+#main-info-text {
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    max-width: 345px;
+    margin-top: 60px;
+}
+
+
+.btn {
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 22px 41px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+}
+
+#main-action {
+    margin-top: 80px;
+}
+
+#main-action a.btn {
+    width: 240px;
+    display: inline-block;
+}
+
+#description {
+    background-color: rgb(255, 239, 239);
+}
+
+#description-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 120px 0;
+
+}
+
+#description-info-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#description-info {
+    max-width: 475px;
+}
+
+#description-title {
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+}
+
+#description-text {
+    font-size: 18px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 397px;
+    margin-top: 60px;
+}
+
+#description-advantages {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.description-advantage-card {
+    max-width: 218px;
+}
+
+.advantage-number {
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    font-family: "Gilroy-Extrabold", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.advantage-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Gilroy-Extrabold", sans-serif;
+    color: rgb(51, 25, 7);
+}
+
+.advantage-text {
+    font-size: 15px;
+    font-family: "Gilroy-Medium", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+    margin-top: 20px;
+}
+
+#macaroon-choose {
+    background-color: rgb(235, 168, 177);
+}
+
+#macaroon-choose-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 120px 0;
+    text-align: center;
+}
+
+#macaroon-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#macaroon-choose-title {
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#macaroon-menu {
+    margin-top: 143px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.macaroon-menu-card{
+    padding: 109px 20px 27px 20px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.macaroon-menu-image{
+    position: absolute;
+    left: calc(50% - 96px);
+    top: -60px;
+}
+
+.macaroon-menu-title{
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.macaroon-menu-choose{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.macaroon-menu-price{
+    font-size: 15px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 57px;
+}
+
+.macaroon-menu-price span{
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.btn.macaroon-order-button{
+    padding: 20px 29px;
+    font-size: 16px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 36px;
+    width: 130px;
+}
+
+#order{
+    background-color: rgb(255, 239, 239);
+}
+
+#order-image{
+    max-height: 480px;
+    position: relative;
+}
+
+#strawberry-left{
+    position: absolute;
+    top: 204px;
+    left: -20px;
+}
+
+#order-container{
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 98px 0 120px 0;
+}
+
+#order-title{
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(51, 25, 7);
+    text-align: left;
+    -moz-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    -webkit-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    -ms-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+}
+
+#order-text{
+    margin-top: 41px;
+    font-size: 18px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    text-align: left;
+    -moz-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    -webkit-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    -ms-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    max-width: 403px;
+    margin-bottom: 8px;
+}
+
+#order-form{
+    max-width: 293px;
+}
+
+#order-info{
+    position: relative;
+}
+
+#strawberry-right{
+    position: absolute;
+    bottom: 85px;
+    right: 0;
+}
+
+.order-form-text{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(18, 10, 6);
+    text-align: left;
+}
+
+.order-form-input{
+    border-width: 1px;
+    border-color: rgb(130, 19, 40);
+    border-style: solid;
+    border-radius: 30px;
+    width: 293px;
+    padding: 23px 25px;
+    background: transparent;
+    box-sizing: border-box;
+    margin-top: 15px;
+    outline: 0;
+}
+
+::placeholder{
+    font-size: 15px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(118, 12, 34);
+}
+
+#order-form button{
+    margin-top: 15px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#footer{
+    background-color: rgb(192, 112, 124);
+}
+
+#footer-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 73px;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rights{
+    margin-top: 19px;
+    font-size: 12px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(227, 172, 180);
+}
+
+#instagram-block svg{
+    width: 35px;
+    height: 35px;
+    fill: white;
+    text-align: center;
+}
+
+#instagram-block div{
+    font-size: 16px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+#instagram-block{
+    text-align: center;
+}
+
+#burger{
+    display: none;
+}
+
+#rights-for-small{
+    display: none;
+    font-size: 12px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(227, 172, 180);
+}
